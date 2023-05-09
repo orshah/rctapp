@@ -1,11 +1,17 @@
-import MyButton from "./components/MyButton/MyButton";
+import CustomForm from "./components/customForm/CustomForm";
+import img from "./images/tansu-topuzoglu-XTaPzVInKBw-unsplash.jpg";
 import "./App.css";
 
 function App() {
   return (
     <>
-      <h1>Hello</h1>
-      <MyButton />
+      <div className="container">
+        <div className="flexx">
+          <h1>Start your journey</h1>
+          <CustomForm className="formDiv" />
+        </div>
+        <img src={img} alt="toutist" />
+      </div>
     </>
   );
 }

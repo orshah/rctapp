@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap");
+input {
+  width: 90%;
+  max-width: 340px;
+  margin: 0rem auto;
+  height: 4rem;
+  border: 0;
+  outline: 0;
+  border-radius: 10px;
+}
+
+label {
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+}

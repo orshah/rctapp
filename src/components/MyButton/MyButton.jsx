@@ -1,7 +1,15 @@
 import "./myButton.style.css";
 
-const MyButton = () => {
-  return <button>Click</button>;
+const MyButton = ({ name, type }) => {
+  const onClickHandler = () => {
+    alert(`${name} is clicked`);
+  };
+
+  return (
+    <button className={`${type}`} onClick={onClickHandler}>
+      {name}
+    </button>
+  );
 };
 
-export default MyButton
+export default MyButton;
