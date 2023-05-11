@@ -23,9 +23,6 @@ h1 {
   grid-row: 1/1;
 }
 
-.flexx {
-}
-
 body {
   background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
 }
